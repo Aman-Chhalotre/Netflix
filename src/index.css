@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Netflixblk;
+    src: url(../src/assets/NetflixSans_W_Blk.ttf);
+}
+@font-face {
+    font-family: NetflixMd;
+    src: url(../src/assets/NetflixSans_W_Md.ttf);
+}
+@font-face {
+    font-family: NetflixRg;
+    src: url(../src/assets/NetflixSans_W_Rg.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+.extrabold{
+    font-family: Netflixblk
+}
+.bold{
+    font-family: NetflixMd
+}
+.normal{
+    font-family: NetflixRg
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
